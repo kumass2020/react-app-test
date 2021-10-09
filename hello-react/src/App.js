@@ -1,7 +1,7 @@
 import React from 'react';
 // import MyComponent from './MyComponent';
 // import Counter from './Counter';
-import Say from './Say';
+// import Say from './Say';
 
 // const App = () => {
 //   return <MyComponent name="React" favoriteNumber={1}>
@@ -13,8 +13,14 @@ import Say from './Say';
 //   return <Counter />;
 // };
 
+// const App = () => {
+//   return <Say />;
+// };
+
+import EventPractice from './EventPractice';
+
 const App = () => {
-  return <Say />;
+  return <EventPractice />;
 };
 
 export default App;
